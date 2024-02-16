@@ -62,7 +62,7 @@ article {
   margin-bottom: 20px;
   width: 80%;
   height: auto;
-  background-color: white;
+  background-color: rgb(241, 240, 240);
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 footer {
