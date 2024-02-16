@@ -43,6 +43,9 @@ nav li {
 nav li:hover {
   background-size: 100% 2.5px;
 }
+nav li:first-child {
+  margin-right: auto;
+}
 nav a {
   min-height: 60px;
   padding: 0 30px;
@@ -51,15 +54,14 @@ nav a {
   align-items: center;
   color: black;
 }
-nav li:first-child {
-  margin-right: auto;
-}
 article {
   padding: 30px;
   border-radius: 30px;
   margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 80%;
-  height: 80vh;
+  height: auto;
   background-color: white;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
@@ -70,7 +72,7 @@ footer {
   color: black;
   text-align: center;
   background-color: #6d6b6b;
-  height: 40px;
+  height: 2rem;
 }
 
 
