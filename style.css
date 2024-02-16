@@ -74,5 +74,12 @@ footer {
   background-color: #6d6b6b;
   height: 2rem;
 }
+button{
+  cursor: pointer;
+  background-color: #C9B7C9;
+  border: none;
+  border-radius: 7.5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
 
 
