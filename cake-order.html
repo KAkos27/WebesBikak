@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="order.css" />
+  <link rel="stylesheet" href="cake-order.css" />
   <title>Webes Bikák</title>
 </head>
 
@@ -76,69 +76,70 @@
           <button class="button-style">Megrendelés</button>
         </div>
       </div>
-      <div class="container">
-        <div class="card">
-          <p>Vendég vagy visszatérő vásárló?</p> <br>
-          <div>
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">Folytatás vendégként</label><br>
+      <form action="#" method="get">
+        <div class="container">
+          <div id="guest-or" class="card">
+            <h4>Vendég vagy visszatérő vásárló?</h4>
+            <div id="guest-inp">
+              <input type="radio" id="html" name="fav_language" value="HTML">
+              <label for="html">Folytatás vendégként</label>
+            </div>
+            <div id="login-inp">
+              <input type="radio" id="html" name="fav_language" value="HTML">
+              <label for="html">Bejelentkezés</label>
+            </div>
           </div>
-          <div>
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">Bejelentkezés</label><br>
+          <div id="name-input" class="card">
+            <label for="fname">
+              <h4>Vezetéknév:</h4>
+            </label>
+            <input type="text" id="fname" name="fname" placeholder="Írd be a vezetékneved" required>
+            <label for="lname">
+              <h4>Keresztnév:</h4>
+            </label>
+            <input type="text" id="lname" name="lname" placeholder="Írd be a keresztneved" required>
+            <label for="email">
+              <h4>E-mail:</h4>
+            </label>
+            <input type="email" id="email" name="email" placeholder="Írd be az email címed" required
+              pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$">
+            <label>
+              <h4>Fizetési mód:</h4>
+            </label>
+            <select id="cars" name="cars">
+              <option value="cash">Kézpénz</option>
+              <option value="card">Bankártya</option>
+              <option value="personal">Üzletben átvétel</option>
+            </select>
           </div>
-          <button class="button-style">Rendben</button>
+          <div id="details-input" class="card">
+            <label for="lname">
+              <h4>Telefonszám:</h4>
+            </label>
+            <input type="text" id="lname" name="lname" placeholder="Írd be a telszámod" required
+              pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$">
+            <label for="fname">
+              <h4>Irányitószám:</h4>
+            </label>
+            <input type="text" id="fname" name="fname" placeholder="Írd be az irányítószámod" required>
+            <label for="lname">
+              <h4>Település név:</h4>
+            </label>
+            <input type="text" id="lname" name="lname" placeholder="Írd be településed nevét" required>
+            <label for="fname">
+              <h4>Utca, házszám:</h4>
+            </label>
+            <input type="text" id="lname" name="lname" placeholder="Írd be a pontos címet" required>
+          </div>
+          <div id="extras-input" class="card">
+            <label for="lname">
+              <h4>Megjegyzés:</h4>
+            </label>
+            <textarea name="tarea" id="tarea" cols="30" rows="10"></textarea>
+            <button class="button-style">Rendelés leadás</button>
+          </div>
         </div>
-
-      </div>
-      <div class="card">
-        <form>
-          <label for="fname">Vezeték név:</label><br>
-          <input type="text" id="fname" name="fname" placeholder="Süti"><br>
-          <label for="lname">Keresztnév:</label><br>
-          <input type="text" id="lname" name="lname" placeholder="Mari">
-        </form>
-      </div>
-      <div class="card">
-        <form>
-          <label for="email">E-mail:</label><br>
-          <input type="email" id="email" name="email"><br>
-          <label>Fizetési mód:</label><br>
-          <select id="cars" name="cars">
-            <option value="volvo">Kézpénz</option>
-            <option value="saab">Bankártya</option>
-            <option value="fiat">Üzletben átvétel</option>
-          </select>
-          <div class="card">
-
-          </div>
-        </form>
-      </div>
-      <div class="card">
-        <form>
-          <label for="lname">Telefonszám:</label><br>
-          <input type="text" id="lname" name="lname">
-          <label for="fname">Irányitó szám:</label><br>
-          <input type="text" id="fname" name="fname"><br>
-        </form>
-      </div>
-      <div class="card">
-        <form>
-          <label for="lname">Település név:</label><br>
-          <input type="text" id="lname" name="lname">
-          <label for="fname">Utca, házszám:</label><br>
-          <input type="text" id="lname" name="lname">
-        </form>
-      </div>
-      <div class="card">
-        <form>
-          <label for="lname">Megjegyzés:</label><br>
-          <input type="text" id="lname" name="lname">
-
-        </form>
-        <button>Rendelés leadás</button>
-      </div>
-      </div>
+      </form>
     </article>
     <footer>
       <p>©2024 Minden jog fenntartva!</p>
