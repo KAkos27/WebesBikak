@@ -26,16 +26,16 @@
 #jelszo,#felhasz,#kuld,#reg{
   background-color: rgb(250, 227, 199);
   height: 25px;
-  border: solid 1.5px #867f7f;
+  border: solid 1.5px #c0bebb;
   border-radius: 6pt;
   
 
 }
 #jelszo:focus,#felhasz:focus{
     box-shadow: 2px 2px 1px silver;
-    height: 30px;
+    height: 29px;
     transition: 1.5s;
-    background-color: aliceblue;
+    background-color: rgb(250, 228, 188);
     border:none
 }
 #kuld{
