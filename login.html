@@ -19,19 +19,23 @@
                 <li><a href="login.html">Bejelentkezés</a></li>
             </ul>
         </nav>
-        <div class="login-container">
-            <div class="login">
-                <h1>Bejelentkezés</h1>
-                <label for="c">Felhasználónév</label>
-                <input type="text" id="felhasz" placeholder=""
-                ><br>
-                <label for="c">Jelszó</label>
-                <input type="password" id="jelszo" placeholder=""
-                >
-                <input type="submit" value="Bejelentkezés" id="kuld">
-                <input type="button" value="Regisztráció" id="reg">
-            </div>
-            
+        <div id="login-container">
+
+            <form action="#" method="get">
+                <h2>Bejelentkezés</h2>
+                <div id="input-panel">
+                    <label for="c">Felhasználónév</label>
+                    <input type="text" id="user-name" placeholder="🙎‍♂️ Írd be a felhasználóneved" required
+                        pattern="^[a-z0-9_-]{3,15}$">
+                    <label for="c">Jelszó</label>
+                    <input type="password" id="password" placeholder="🔒 Írd be a jelszavad" required pattern=".{6,}">
+                    <label class="forgot-password"for="c"><a href="#">Elfelejtett jelszó</a></label>
+                </div>
+                <div id="button-panel">
+                    <input type="submit" value="Bejelentkezés" id="login" class="button-style">
+                    <input type="button" value="Regisztráció" id="register" class="button-style">
+                </div>
+            </form>
         </div>
         <footer>
             <p>©2024 Minden jog fenntartva!</p>

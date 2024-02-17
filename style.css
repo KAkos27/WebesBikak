@@ -74,7 +74,7 @@ footer {
   background-color: #6d6b6b;
   height: 2rem;
 }
-button{
+.button-style{
   cursor: pointer;
   background-color: #C9B7C9;
   border: none;

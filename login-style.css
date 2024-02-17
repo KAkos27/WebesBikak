@@ -1,52 +1,58 @@
-.login-container {
-  height: 480px;
-  width: 450px;
+#login-container {
+  min-height: 400px;
+  height: auto;
+  min-width: 400px;
+  width: auto;
   background-color: white;
   margin: auto;
   margin-top: 40px;
   border-radius: 30px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.login{
-  margin-left: 100px;
-  margin-right: 100px;
-  padding: 30px;
+form {
+  margin: auto;
+  width: 70%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  
+  justify-content: space-between;
+  padding: 30px;
 }
-.login h1{
-  
-  margin-bottom: 50px;
+h2 {
+  text-align: center;
 }
-#jelszo,#felhasz,#kuld,#reg{
-  background-color: #cecbcb;
-  height: 25px;
-  border: solid 1.5px #867f7f;
-  border-radius: 6pt;
-  
-
+label {
+  margin-bottom: 1rem;
 }
-#jelszo:focus,#felhasz:focus{
-    box-shadow: 2px 2px 1px silver;
-    height: 30px;
-    
-    transition: 1.5s;
-    background-color: aliceblue;
-    border:none
+#input-panel {
+  display: flex;
+  flex-direction: column;
 }
-#kuld{
-  background-color: rgb(250, 227, 199);
-  margin-top: 140px;
-  height: 35px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 12pt;
-  
+.forgot-password {
+  margin-left: auto;
 }
-#reg{
-  background-color: rgb(250, 227, 199);
-  margin-top: 15px;
-  height: 24px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 11pt;
+.forgot-password a {
+  font-size: small;
+  color: #6d6b6b;
+}
+#button-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#password,
+#user-name,
+#login,
+#register {
+  height: 2rem;
+}
+#login,
+#register {
+  border-radius: 15px;
+}
+#password,
+#user-name {
+  border: none;
+  border-bottom: 2px solid #ccc9c9;
 }
