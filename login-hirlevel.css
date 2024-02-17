@@ -24,7 +24,9 @@ article h1 {
   display: grid;
   grid-template-columns: 1fr;
 }
-
+.hirlevell{
+  margin-bottom: 60px;
+}
 .login h1 {
   margin-bottom: 50px;
   text-shadow: 4px 4px 4px rgba(134, 129, 129, 0.5);
@@ -36,6 +38,7 @@ article h1 {
 .hir {
   margin-bottom: 30px;
 }
+
 #neme,
 #l1,
 #l2,
