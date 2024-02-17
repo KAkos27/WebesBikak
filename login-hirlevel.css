@@ -8,7 +8,7 @@
   border-radius: 30px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
-article{
+article {
   width: 70%;
 }
 article h1 {
@@ -36,13 +36,20 @@ article h1 {
 .hir {
   margin-bottom: 30px;
 }
-#neme,#l1,#l2,#l3,#l4,#l5 {
+#neme,
+#l1,
+#l2,
+#l3,
+#l4,
+#l5 {
   font-weight: 500;
 }
 #neme {
   margin-right: 10px;
 }
-#Knev,#Vnev,#email {
+#Knev,
+#Vnev,
+#email {
   background-color: rgb(250, 227, 199);
   height: 25px;
   border: solid 1.5px #c0bebb;
@@ -68,13 +75,17 @@ article h1 {
   cursor: pointer;
   border-radius: 6pt;
 }
-#jelszo,#felhasz,#kuld,#reg {
+#jelszo,
+#felhasz,
+#kuld,
+#reg {
   background-color: rgb(250, 227, 199);
   height: 25px;
   border: solid 1.5px #c0bebb;
   border-radius: 6pt;
 }
-#jelszo:focus,#felhasz:focus {
+#jelszo:focus,
+#felhasz:focus {
   box-shadow: 2px 2px 1px silver;
   transition: 1.5s;
   background-color: rgb(250, 228, 188);
@@ -127,14 +138,14 @@ article h1 {
     border-radius: 30px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   }
-  #kuld{
+  #kuld {
     margin-top: 30px;
   }
   .login {
-   margin: auto;
+    margin: auto;
     text-align: center;
   }
-  .login input{
+  .login input {
     width: 171px;
     text-align: center;
     margin: auto;
@@ -142,7 +153,6 @@ article h1 {
 }
 @media only screen and (max-width: 540px) {
   .login-container {
-    
     text-align: center;
     width: 100%;
     background-color: white;
@@ -151,18 +161,16 @@ article h1 {
     border-radius: 30px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   }
-  #kuld{
+  #kuld {
     margin-top: 20px;
   }
   .login {
     margin: auto;
     text-align: center;
-    
   }
-  .login input{
+  .login input {
     width: 171px;
     text-align: center;
     margin: auto;
   }
-  
 }
