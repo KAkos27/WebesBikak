@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="hu">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="login-style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="login-style.css" />
     <title>Webes Bikák</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <nav>
-            <ul>
-                <li><a href="index.html"><img src="images/logo.png" alt="Főoldal"></a></li>
-                <li><a href="cake-order.html">Torta rendelés</a></li>
-                <li><a href="#">Hírlevél</a></li>
-                <li><a href="login.html">Bejelentkezés</a></li>
-            </ul>
-        </nav>
-        <div class="login-container">
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"><img src="images/logo.png" alt="Főoldal" /></a>
+          </li>
+          <li><a href="cake-order.html">Torta rendelés</a></li>
+          <li><a href="#">Hírlevél</a></li>
+          <li><a href="login.html">Bejelentkezés</a></li>
+        </ul>
+      </nav>
+      <div class="login-container">
+        <form action="#" method="get">
+          
             <div class="login">
-                <h1>Bejelentkezés</h1>
-                <label for="c">Felhasználónév</label>
-                <input type="text" id="felhasz" placeholder=""
-                ><br>
-                <label for="c">Jelszó</label>
-                <input type="password" id="jelszo" placeholder=""
-                >
-                <input type="submit" value="Bejelentkezés" id="kuld">
-                <input type="button" value="Regisztráció" id="reg">
+              <h1>Bejelentkezés</h1>
+              <label for="c">Felhasználónév</label>
+              <input type="text" id="felhasz" pattern="^\w{5,}$" /><br />
+              <label for="c">Jelszó</label>
+              <input type="password" id="jelszo" pattern="^\w{5,}$" />
+              <input type="submit" value="Bejelentkezés" id="kuld" />
+              <input type="button" value="Regisztráció" id="reg" />
             </div>
-            
-        </div>
-        <footer>
-            <p>©2024 Minden jog fenntartva!</p>
-        </footer>
+          
+        </form>
+      </div>
+      <footer>
+        <p>©2024 Minden jog fenntartva!</p>
+      </footer>
     </main>
-</body>
-
+  </body>
 </html>

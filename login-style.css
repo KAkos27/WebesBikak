@@ -33,10 +33,10 @@
 }
 #jelszo:focus,#felhasz:focus{
     box-shadow: 2px 2px 1px silver;
-    height: 29px;
     transition: 1.5s;
     background-color: rgb(250, 228, 188);
-    border:none
+    border:none;
+    transform: scale(1.1);
 }
 #kuld{
   background-color: rgb(250, 227, 199);

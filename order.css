@@ -49,3 +49,6 @@ article {
   grid-row: 3;
   float: right;
 }
+fieldset {
+  border: none;
+}
