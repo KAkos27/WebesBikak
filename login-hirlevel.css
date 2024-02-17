@@ -135,11 +135,7 @@ article h1 {
     text-align: center;
     height: 100%;
     width: 100%;
-    background-color: white;
-    margin: auto;
-    margin-top: 15px;
-    border-radius: 30px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    
   }
   #kuld {
     margin-top: 30px;
@@ -158,11 +154,7 @@ article h1 {
   .login-container {
     text-align: center;
     width: 100%;
-    background-color: white;
-    margin: auto;
-    margin-top: 15px;
-    border-radius: 30px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    
   }
   #kuld {
     margin-top: 20px;
@@ -207,6 +199,10 @@ article h1 {
     width: 171px;
     text-align: center;
     margin: auto;
+  }
+  .radio{
+    display: grid;
+    grid-template-columns: 1fr;
   }
   #jelszo,
 #felhasz,#kuld,
