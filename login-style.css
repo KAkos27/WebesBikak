@@ -21,15 +21,14 @@
 }
 .login label{
   text-align: center;
-  
+  font-weight: 500;
+   
 }
 #jelszo,#felhasz,#kuld,#reg{
   background-color: rgb(250, 227, 199);
   height: 25px;
   border: solid 1.5px #c0bebb;
   border-radius: 6pt;
-  
-
 }
 #jelszo:focus,#felhasz:focus{
     box-shadow: 2px 2px 1px silver;
@@ -37,7 +36,6 @@
     background-color: rgb(250, 228, 188);
     border: none;
     transform: scale(1.07);
-    
 }
 #kuld{
   background-color: rgb(250, 227, 199);
@@ -51,12 +49,7 @@
   overflow: hidden;
   border: none;
   cursor: pointer;
-  
-  
 }
-
-
-
 #kuld:hover {
   
   background-color: #cfafc2;
