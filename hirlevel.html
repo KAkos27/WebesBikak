@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="login-hirlevel.css">
+    <title>Webes Bikák</title>
+  </head>
+
+  <body>
+    <main>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"><img src="images/logo.png" alt="Főoldal" /></a>
+          </li>
+          <li><a href="cake-order.html">Torta rendelés</a></li>
+          <li><a href="#">Hírlevél</a></li>
+          <li><a href="login.html">Bejelentkezés</a></li>
+        </ul>
+      </nav>
+      <article>
+        <div class="login-container">
+            <form action="#" method="get">
+                <div>
+                    <h1 class="hirlevell">Iratkozz fel a hírlevélre!</h1>
+                </div>
+                <div class="radio">
+                    <label id="neme" for="ferfi">Neme:</label>
+                    <input type="radio" name="valaszt" value="Férfi" id="ferfi">
+                    <label id="l1" for="ferfi">Férfi</label>
+                    <input type="radio" name="valaszt" value="Nő" id="no">
+                    <label id="l2" for="no">Nő</label><br><br>
+                </div>
+                <label id="l5" for="Knev">Keresztnév:</label>
+                <input type="text"  id="Knev"><br><br>
+                <label id="l3" for="Vnev">Vezetéknév:</label>
+                <input type="text" id="Vnev"><br><br>
+                <label id="l4" for="">E-mail:</label>
+                <input type="text" id="email"><br><br>
+                <div class="igazit">
+                    <input type="submit" value="Feliratkozás" id="kuld" />
+                </div>
+                
+            </form>
+        </div>
+        
+      </article>
+      <footer>
+        <p>©2024 Minden jog fenntartva!</p>
+      </footer>
+    </main>
+  </body>
+</html>
