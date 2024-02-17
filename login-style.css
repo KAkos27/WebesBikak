@@ -4,86 +4,80 @@
   width: 450px;
   background-color: white;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 15px;
   border-radius: 30px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
-article h1{
+article h1 {
   text-align: center;
   font-weight: 500;
   font-size: 20pt;
   text-shadow: 3px 3px 3px rgba(172, 167, 167, 0.5);
 }
-.login{
+.login {
   margin-left: 100px;
   margin-right: 100px;
-  padding: 30px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  
 }
-.login h1{
+.login h1 {
   margin-bottom: 50px;
   text-shadow: 4px 4px 4px rgba(134, 129, 129, 0.5);
 }
-.login label{
+.login label {
   text-align: center;
   font-weight: 500;
-   
 }
-.hir{
+.hir {
   margin-bottom: 30px;
 }
-#neme,#l1,#l2,#l3,#l4,#l5{
+#neme,#l1,#l2,#l3,#l4,#l5 {
   font-weight: 500;
 }
-#neme{
+#neme {
   margin-right: 10px;
 }
-#Knev,#Vnev,#email{
+#Knev,#Vnev,#email {
   background-color: rgb(250, 227, 199);
   height: 25px;
   border: solid 1.5px #c0bebb;
   border-radius: 6pt;
   float: right;
-  
 }
 .igazit {
   text-align: center;
 }
-.igazit input{
-  
-    height: 25px;
-    width: 150px;
-    background-color: rgb(250, 227, 199);
-    color: rgba(0, 0, 0, 0.795);
-    margin-top: 70px;
-    height: 35px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12pt;
-    font-weight: 500;
-    position: relative;
-    overflow: hidden;
-    border: none;
-    cursor: pointer;
-    border-radius: 6pt; 
-  
-
+.igazit input {
+  height: 25px;
+  width: 150px;
+  background-color: rgb(250, 227, 199);
+  color: rgba(0, 0, 0, 0.795);
+  margin-top: 70px;
+  height: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12pt;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  cursor: pointer;
+  border-radius: 6pt;
 }
-#jelszo,#felhasz,#kuld,#reg{
+#jelszo,#felhasz,#kuld,#reg {
   background-color: rgb(250, 227, 199);
   height: 25px;
   border: solid 1.5px #c0bebb;
   border-radius: 6pt;
 }
-#jelszo:focus,#felhasz:focus{
-    box-shadow: 2px 2px 1px silver;
-    transition: 1.5s;
-    background-color: rgb(250, 228, 188);
-    border: none;
-    transform: scale(1.07);
+#jelszo:focus,#felhasz:focus {
+  box-shadow: 2px 2px 1px silver;
+  transition: 1.5s;
+  background-color: rgb(250, 228, 188);
+  border: none;
+  transform: scale(1.04);
 }
-#kuld{
+#kuld {
   background-color: rgb(250, 227, 199);
   color: rgba(0, 0, 0, 0.795);
   margin-top: 130px;
@@ -97,12 +91,11 @@ article h1{
   cursor: pointer;
 }
 #kuld:hover {
-  
   background-color: #cfafc2;
   transition: 1.5s;
   transform: scale(1.08);
 }
-#reg{
+#reg {
   background-color: rgb(250, 227, 199);
   margin-top: 15px;
   height: 24px;
@@ -115,7 +108,6 @@ article h1{
   cursor: pointer;
 }
 #reg:hover {
-  
   background-color: #cfafc2;
   transition: 1.5s;
   transform: scale(1.06);
