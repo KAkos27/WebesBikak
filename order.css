@@ -18,6 +18,7 @@ article {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 40px 1fr 25px;
+
 }
 .images img {
   width: 150px;
