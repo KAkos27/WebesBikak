@@ -1,0 +1,52 @@
+
+article h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 20pt;
+    text-shadow: 3px 3px 3px rgba(172, 167, 167, 0.5);
+}
+
+article{
+    width: 50%; 
+    margin-top: 40px;
+    background-color: white;
+}
+
+.hir{
+    margin-bottom: 30px;
+}
+#neme{
+    margin-right: 10px;
+}
+#Knev,#Vnev,#email{
+    background-color: rgb(250, 227, 199);
+    height: 25px;
+    border: solid 1.5px #c0bebb;
+    border-radius: 6pt;
+    float: right;
+    
+}
+#kuld{
+    height: 25px;
+    width: 150px;
+    background-color: rgb(250, 227, 199);
+    color: rgba(0, 0, 0, 0.795);
+    margin-top: 70px;
+    height: 35px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    border-radius: 6pt; 
+  }
+  #kuld:hover {
+    background-color: #cfafc2;
+    transition: 1.5s;
+    transform: scale(1.08);
+  }
+  .igazit{
+    text-align: center;
+  }
