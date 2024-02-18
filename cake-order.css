@@ -92,8 +92,11 @@ select {
   border-bottom: 1px solid #ccc9c9;
 }
 #extras-input {
-  grid-template-columns: repeat(4 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+}
+#extras-input button{
+  grid-column: 3/5;
 }
 textarea {
   border-radius: 15px;
