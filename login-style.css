@@ -1,7 +1,7 @@
 #login-container {
-  min-height: 400px;
+  min-height: 300px;
   height: auto;
-  min-width: 400px;
+  min-width: 380px;
   width: auto;
   background-color: white;
   margin: auto;
@@ -13,14 +13,16 @@
 form {
   margin: auto;
   width: 70%;
-  height: 100%;
+  height: auto  ;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 30px;
+  padding: 20px;
 }
 h2 {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 label {
   margin-bottom: 1rem;
@@ -32,14 +34,25 @@ label {
 .forgot-password {
   margin-left: auto;
 }
-.forgot-password a {
+#input-panel a,
+#button-panel a {
   font-size: small;
   color: #6d6b6b;
 }
 #button-panel {
   display: flex;
   flex-direction: column;
+}
+#remember-me {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-height: 2.5rem;
   gap: 10px;
+}
+#remember-me__label {
+  font-size: small;
+  padding-top: 12px;
 }
 #password,
 #user-name,
@@ -55,4 +68,13 @@ label {
 #user-name {
   border: none;
   border-bottom: 2px solid #ccc9c9;
+}
+#no-account {
+  text-align: center;
+  font-size: small;
+  margin-top: 10px;
+  height: 0.5rem;
+}
+#register__label {
+  text-align: center;
 }

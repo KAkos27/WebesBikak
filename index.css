@@ -1,0 +1,35 @@
+body {
+  background-image: url(images/peakpx.jpg);
+}
+#title-container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  padding-left: 20px;
+  gap: 40px;
+}
+#title-container a {
+  grid-row: 2;
+  width: 400px;
+  height: 60px;
+}
+#title-container a input {
+  background-color: #9a799a;
+  border-radius: 30px;
+  color: white;
+  font-size: larger;
+  height: 60px;
+  width: 360px;
+  transition: 150ms ease;
+}
+#title-container a input:hover {
+  background-color: white;
+  color: #9a799a;
+}
+h1 {
+  color: white;
+  font-size: 5rem;
+}
+footer {
+  display: none;
+}
